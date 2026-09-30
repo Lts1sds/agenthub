@@ -1,0 +1,11 @@
+name: weather-cli
+version: 0.1.0
+author: agenthub
+description: 自然语言问天气，LLM 提取城市后查询 wttr.in 并组织回答
+type: program
+models:
+  - deepseek-chat
+runtime:
+  kind: python-cli
+  entry: app/main.py
+  deps: requirements.txt

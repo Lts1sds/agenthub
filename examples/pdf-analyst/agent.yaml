@@ -1,0 +1,11 @@
+name: pdf-analyst
+version: 0.1.0
+author: agenthub
+description: PDF 论文分析助手，提取结构、方法与结论
+type: prompt-pack
+models:
+  - deepseek-chat
+install:
+  targets:
+    - comagic
+    - claude-code

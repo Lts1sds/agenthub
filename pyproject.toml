@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agenthub-cli"
+version = "0.1.0"
+description = "AgentHub CLI - install and run agents from the AgentHub marketplace"
+requires-python = ">=3.9"
+license = "MIT"
+
+[project.scripts]
+agenthub = "agenthub.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["agenthub*"]
